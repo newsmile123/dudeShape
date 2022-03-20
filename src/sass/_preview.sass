@@ -1,0 +1,72 @@
+.preview
+    padding-top: 140px
+    &__title
+        font-family: 'Montserrat', sans-serif  
+        font-style: normal
+        font-weight: 700
+        font-size: 32px
+        color: #242424
+        text-align: center
+.tab__items
+    margin: 20px auto
+    width: 720px
+    display: flex
+    justify-content: space-between
+.tab__item
+    font-style: normal
+    font-weight: 400
+    font-size: 24px
+    color: #919090   
+    &_active
+        color: #154444
+.tabcontent
+    margin-top: 98px
+    display: grid
+    grid-template-columns: 578px 474px
+    grid-template-rows: minmax(410px, auto)
+    column-gap: 135px
+    align-items: center
+    &__img
+        position: relative
+        img
+            width: 552px
+            display: block
+            margin: auto
+    &__green
+        width: 190px
+        height: 85px
+        background-color: #154444
+        position: absolute
+        top: -13px
+        left: 0
+        z-index: -1
+        &-2
+            position: absolute
+            width: 190px
+            height: 90px
+            background-color: #154444
+            bottom: -13px
+            right: 0
+            z-index: -1
+    &__items
+        display: grid
+        grid-template-columns: repeat(2, 222px)
+        // grid-template-rows: repeat(3, 90px)
+        grid-template-rows: repeat(3, minmax(90px, auto))
+
+        grid-gap: 30px
+    &__item
+        padding: 16px 65px
+        border: 1px solid #D9DCE5
+.item__footer
+    margin-top: 14px
+    font-style: normal
+    font-weight: 500
+    font-size: 15px
+    color: #808080
+    text-align: center
+.test
+    width: 25px
+    height: 25px
+    background-color: black
+    margin: 0 auto

@@ -1,0 +1,44 @@
+.review
+    padding-top: 140px
+    &__img
+        position: relative
+    &__wrapper
+        display: grid
+        grid-template-columns: 565px 535px
+        grid-template-rows: minmax(493px, auto)
+        grid-gap: 100px
+        align-items: center
+    &__front
+        display: flex
+        justify-content: end
+    &__back
+        width: 492px
+        height: 492px
+        background-color: #244D4D
+        border-radius: 100%
+        position: absolute
+        top: 1px
+        z-index: -1
+    &__title
+        font-family: 'Montserrat', sans-serif  
+        font-style: normal
+        font-weight: 700
+        font-size: 32px
+        color: #242424
+    &__subtitle
+        margin-top: 20px
+        font-weight: 400
+        font-size: 20px
+    &__card
+        margin-top: 45px
+        width: 130px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-weight: 500
+        font-size: 16px
+    &__card-footer
+        display: flex
+        gap: 10px
+        align-items: center
+        font-size: 14px
